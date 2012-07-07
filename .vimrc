@@ -1,0 +1,3 @@
+colo mustang
+
+syn on
