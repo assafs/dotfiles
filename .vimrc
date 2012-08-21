@@ -30,3 +30,13 @@ noremap <leader>yy "*Y
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 
 cs add cscope.out
+
+" use Ctrl+L to toggle the line number counting method
+function! g:ToggleNuMode()
+    if &nu == 1
+        set rnu
+    else
+        set nu
+    endif
+endfunction
+nnoremap <silent><C-L> :call g:ToggleNuMode()<cr>

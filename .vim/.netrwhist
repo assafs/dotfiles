@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/assafs/Code/Domain-Analyzer/.git'
 let g:netrw_dirhist_2='/Users/assafs/.vim'
 let g:netrw_dirhist_3='/Users/assafs/.vim/bundle/vim-colors-solarized'
+let g:netrw_dirhist_4='/Users/assafs/.emacs.d'
