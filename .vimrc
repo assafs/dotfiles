@@ -40,3 +40,6 @@ function! g:ToggleNuMode()
     endif
 endfunction
 nnoremap <silent><C-L> :call g:ToggleNuMode()<cr>
+
+" make sure cursor doesn't roll off screen
+set scrolloff=5
