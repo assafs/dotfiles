@@ -9,6 +9,9 @@ set expandtab
 nnoremap <silent><C-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><C-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
+ino jj <esc>
+cno jj <c-c>
+
 call pathogen#infect()
 syntax on
 filetype plugin indent on
