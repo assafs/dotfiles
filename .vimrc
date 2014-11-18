@@ -1,3 +1,5 @@
+let mapleader = "-"
+
 set smartindent
 set tabstop=4
 set shiftwidth=4
@@ -67,3 +69,9 @@ nnoremap <C-w>V :let spr=&spr<BAR>set nospr<BAR>vnew<BAR>let &spr=spr<CR>
 
 set wildmenu
 set wildmode=full
+
+nnoremap <C-t><left> :tabp<CR>
+nnoremap <C-t><right> :tabn<CR>
+
+let g:clang_user_options='|| exit 0'
+let g:clang_close_preview=1
